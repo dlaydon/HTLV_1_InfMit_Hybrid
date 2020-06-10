@@ -1,0 +1,7 @@
+.Rhistory
+.Rproj.user/
+.dropbox
+.project
+*.tmp
+*.Rproj
+Output/
