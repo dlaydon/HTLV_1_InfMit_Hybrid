@@ -17,7 +17,7 @@ The model is written in R.
 - `FitHybrid.R` calls i) `CloneTrajectories.R`, ii) `QuickGridSearch.R` and iii) `OptimizeFit.R` to fit the rate of infectious spread for a single patient data set.
 
 ## Inputs
-The estiamted clone frequency distributions for each patient blood sample are given in directory [EstDists](./Inputs/EstDists). 
+The estimated clone frequency distributions for each patient blood sample are given in directory [EstDists](./Inputs/EstDists). 
 
 ## Description
 Patient blood sample characteristics are given in `PatientSampleInfo.txt`.
