@@ -1,8 +1,8 @@
 # HTLV-1 Hybrid Model
 
-This repository contains the code for a model of within-host Human T-Lymphotropic Virus Type-1 (HTLV-1) persistence, developed by Daniel J. Laydon, Vikram Sunkara, Lies Boelen, Charles R.M. Bangham and Becca Asquith. Preprint and details available at <https://doi.org/10.1101/799197>
+This repository contains the code for a model of within-host Human T-Lymphotropic Virus Type-1 (HTLV-1) persistence, developed by Daniel J. Laydon, Vikram Sunkara, Lies Boelen, Charles R.M. Bangham and Becca Asquith. Details available at <https://doi.org/10.1371/journal.pcbi.1007470>
 
-Script contains functions for hybrid model of chronic HTLV-1 infection/within host persistence. Model divides HTLV-1 proviral load (number of infected cells) into clones, where clones are defined as populations of indentically infected cells with common site of proviral integration. Clones proliferate via mitotic spread. Clones are created by infectious spread.
+Scripts contains functions for a hybrid model of chronic HTLV-1 infection and within-host persistence. The model divides HTLV-1 proviral load (i.e. the number of infected cells) into clones, where clones are defined as populations of indentically infected cells with a common site of proviral integration. Clones proliferate via mitotic spread. Clones are created by infectious spread.
 
 The hybrid model is comprised of two systems; i) deterministic system modelled by series of ODEs (for large clones); ii) stochastic system modelled by multiple birth-death processes (for smaller clones).  
 
